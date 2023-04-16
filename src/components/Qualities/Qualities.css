@@ -23,3 +23,7 @@
         column-gap: 60px;
     }
 }
+
+.section-t.text-center h3 {
+   color: rgb(241, 113, 28);
+}

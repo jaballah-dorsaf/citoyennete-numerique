@@ -18,7 +18,7 @@ const About5 = () => {
 
                 <div className = "content-left">
 
-                    <img src = {images.about_main_img} alt = "" />
+                    <img src = {images.customer_img_4} alt = "" />
 
                 </div>
 
@@ -26,17 +26,20 @@ const About5 = () => {
 
                     <p><h4 className='fasl'> : الفصل الخامس</h4><h2 className='fousoul'>الاستخدام الرقمي الإيجابي</h2></p>
 
-                    <p className = "rightt"><ol>أحافظ على صحتي الجسدية والنفسية من خلال الموازنة وضبط الوقت بين العالم الافتراضي والواقعي - </ol></p>
+                    <p className = "rightt"><ol> أحافظ على صحتي الجسدية والنفسية من خلال الموازنة - </ol></p>
+                    <p className='rightt'><ol> .وضبط الوقت بين العالم الافتراضي والواقعي</ol></p>
 
-                    <p className = "rightt"><ol>أكون مسؤولاً عن تعاملي مع العالم الرقمي، وأن أحترم القوانين والقواعد المنظمة لذلك -</ol></p>
+                    <p className = "rightt"><ol>أكون مسؤولاً عن تعاملي مع العالم الرقمي، وأن أحترم القوانين -</ol></p>
+                    <p className='rightt'><ol> .والقواعد المنظمة لذلك</ol></p>
 
-                    <p className = "rightt"><ol>أعزز قيم التضامن والتعاطف الاجتماعي والمعاملة بإيجابية، واستخدم منصات التواصل الاجتماعي بحكمة -</ol></p>
+                    <p className = "rightt"><ol>أعزز قيم التضامن والتعاطف الاجتماعي والمعاملة بإيجابية -</ol></p>
+                    <p className='rightt'><ol> .واستخدم منصات التواصل الاجتماعي بحكمة</ol></p>
 
-                    <p className = "rightt"><ol> اكشف واطور من أنماط التعلم عن بعد -</ol></p>
+                    <p className = "rightt"><ol> .اكشف واطور من أنماط التعلم عن بعد -</ol></p>
 
-                    <p className='rightt'><ol> اتعلم وأتمكن من التكنولوجيا - </ol></p>
+                    <p className='rightt'><ol> .اتعلم وأتمكن من التكنولوجيا - </ol></p>
 
-                    <p className='rightt'><ol>اتعامل مع التكنولوجيا بذكاء ، لا أستعملها فقط للعب - </ol></p>
+                    <p className='rightt'><ol> .اتعامل مع التكنولوجيا بذكاء ، لا أستعملها فقط للعب -</ol></p>
                      
                 </div>
 

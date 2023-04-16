@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import "./Header.css";
-import {FaPaperPlane} from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -12,9 +11,7 @@ const Header = () => {
                 <h1 className='text-uppercase header-title'>المواطنة الرقمية</h1>
                 <p className='text-lead'> صفات المواطن الرقمي الإيجابي</p>
                 <p className='text-lead'> الصحة و الرفاهية الرقمية</p>
-                <a href = "/" className='btn header-btn btn-blue'>
-                    <FaPaperPlane /> <span>get started</span>
-                </a>
+                
             </div>
         </div>
     </header>

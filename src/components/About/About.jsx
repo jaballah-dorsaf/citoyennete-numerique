@@ -33,15 +33,15 @@ const About = () => {
 
                     <p><h4 className='fasl'> : الفصل الأول</h4><h2 className='fousoul'>السلامة الرقمية</h2></p>
 
-                    <p className = "rightt"><ol> لا أحمّل البرامج والتطبيقات من مصادر غير موثوقة - </ol></p>
+                    <p className = "rightt"><ol> .لا أحمّل البرامج والتطبيقات من مصادر غير موثوقة - </ol></p>
 
-                    <p className = "rightt"><ol> أتجنب ان اعطي البريد الالكتروني لمن يطلبه -</ol></p>
+                    <p className = "rightt"><ol> .أتجنب ان اعطي البريد الالكتروني لمن يطلبه -</ol></p>
 
-                    <p className = "rightt"><ol> اكتب كلمة سر قوية ولا اعطيها الا الى والديا -</ol></p>
+                    <p className = "rightt"><ol> .اكتب كلمة سر قوية ولا اعطيها الا الى والديا -</ol></p>
 
-                    <p className = "rightt"><ol>  إذا واجهت مشكلة اتصل بالأمن الالكتروني -</ol></p>
+                    <p className = "rightt"><ol> . إذا واجهت مشكلة اتصل بالأمن الالكتروني -</ol></p>
 
-                    <p className='rightt'><ol>عدم فتح رسائل مجهولة المصدر - </ol></p>
+                    <p className='rightt'><ol> عدم فتح رسائل مجهولة المصدر -</ol></p>
                     
 
                 </div>

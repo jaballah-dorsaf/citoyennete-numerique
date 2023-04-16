@@ -124,43 +124,43 @@ const portfolio = [
 const testimonials = [
     {
         id: 19,
-        name: "Marie Jordan",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "عند استخدام البريد الإلكتروني",
+        text: " .أتجنب ان اعطي البريد الالكتروني لمن يطلبه",
         image: images.customer_img_1,
         rating: 3
     },
     {
         id: 20,
-        name: "Ann Brown",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "عند استخدام متصفح الإنترنت",
+        text: " .لا أحمّل البرامج والتطبيقات من مصادر غير موثوقة",
         image: images.customer_img_2,
         rating: 5
     },
     {
         id: 21,
-        name: "Andrew Bill",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "عند استخدام الخدمة السحابية",
+        text: ".اكتب كلمة سر قوية ولا اعطيها الا الى والديا ",
         image: images.customer_img_3,
         rating: 2
     },
     {
         id: 22,
-        name: "Jason Stawer",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "عند استخدام بيانات الموقع",
+        text: "إذا واجهت مشكلة اتصل بالأمن الالكتروني ",
         image: images.customer_img_4,
         rating: 4
     },
     {
         id: 23,
-        name: "Lisa Green",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "عند استخدام وسائل التواصل الاجتماعي",
+        text: ".عدم فتح رسائل مجهولة المصدر",
         image: images.customer_img_5,
         rating: 2
     },
     {
         id: 24,
-        name: "Anna Doe",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "عدم نشر أي معلومات أو صور قد تؤذيك عند نشرها",
+        text: ".إذا كنت اشك ان الحاسوب مراقب ابلغ والدي ",
         image: images.customer_img_6,
         rating: 4
     }

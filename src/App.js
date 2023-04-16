@@ -7,13 +7,10 @@ import About3 from './components/About3/About3';
 import About4 from './components/About4/About4';
 import About5 from './components/About5/About5';
 
-import Services from './components/Services/Services';
-
 import Qualities from './components/Qualities/Qualities';
-import Features from './components/Features/Features';
-import Portfolio from './components/Portfolio/Portfolio';
+/*import Portfolio from './components/Portfolio/Portfolio';*/
 import Testimonials from './components/Testimonials/Testimonials';
-import Contact from './components/Contact/Contact';
+/*import Contact from './components/Contact/Contact';*/
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -25,13 +22,10 @@ function App() {
       <About3 />
       <About4 />
       <About5 />
-
-      <Services />
       <Qualities />
-      <Features />
-      <Portfolio />
+      
       <Testimonials />
-      <Contact />
+      
       <Footer />
     </div>
   );

@@ -18,7 +18,7 @@ const About4 = () => {
 
                 <div className = "content-left">
 
-                    <img src = {images.about_main_img} alt = "" />
+                    <img src = {images.customer_img_3} alt = "" />
 
                 </div>
 
@@ -26,14 +26,14 @@ const About4 = () => {
 
                     <p><h4 className='fasl'> : الفصل الرابع</h4><h2 className='fousoul'>السمعة الرقمية</h2></p>
 
-                    <p className = "rightt"><ol>أمثل وطني أفضل تمثيل - </ol></p>
+                    <p className = "rightt"><ol>.أمثل وطني أفضل تمثيل - </ol></p>
 
-                    <p className = "rightt"><ol>أدافع عن مكتسبات وسمعة الدولة في العالم الرقمي -</ol></p>
+                    <p className = "rightt"><ol>.أدافع عن مكتسبات وسمعة الدولة في العالم الرقمي -</ol></p>
 
-                    <p className = "rightt"><ol>ألتزم بالولاء لوطني -</ol></p>
+                    <p className = "rightt"><ol>.ألتزم بالولاء لوطني -</ol></p>
 
-                    <p className = "rightt"><ol> أكون نموذجاً للقيم والعادات والتقاليد الوطنية والإنسانية في العالم الرقمي -</ol></p>
-                    
+                    <p className = "rightt"><ol> أكون نموذجاً للقيم والعادات والتقاليد الوطنية والإنسانية  -</ol></p>
+                    <p className = "rightt"><ol>.في العالم الرقمي</ol></p>
 
                 </div>
 

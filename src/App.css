@@ -344,6 +344,8 @@ input, textarea, select{
 
 .bg-white{background-color: var(--clr-white);}
 
+.bg-black-new{background-color: #f1ac57;}
+
 .bg-black{background-color: #fafafa;}
 
 .bg-robin-blue{background-color: var(--clr-robin-blue);}

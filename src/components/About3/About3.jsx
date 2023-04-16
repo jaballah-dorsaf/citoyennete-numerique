@@ -18,7 +18,7 @@ const About3 = () => {
 
                 <div className = "content-left">
 
-                    <img src = {images.about_main_img} alt = "" />
+                    <img src = {images.customer_img_2} alt = "" />
 
                 </div>
 
@@ -26,15 +26,17 @@ const About3 = () => {
 
                     <p><h4 className='fasl'> : الفصل الثالث</h4><h2 className='fousoul'>الأخلاقيات الرقمية</h2></p>
 
-                    <p className = "rightt"><ol>لا اتنمر على الاخرين  - </ol></p>
+                    <p className = "rightt"><ol> .لا اتنمر على الاخرين  -</ol></p><br />
 
-                    <p className = "rightt"><ol> التزم بآداب الحوار والمناقشة -</ol></p>
+                    <p className = "rightt"><ol> .التزم بآداب الحوار والمناقشة -</ol></p><br />
 
-                    <p className = "rightt"><ol>لا انشر صور او مقالات تخل بالأخلاق -</ol></p>
+                    <p className = "rightt"><ol> .لا انشر صور او مقالات تخل بالأخلاق -</ol></p><br />
 
-                    <p className = "rightt"><ol> لا اتابع صفحات سيئة  -</ol></p>
+                    
+                    <p className = "rightt"><ol> .لا اتابع صفحات سيئة  -</ol></p><br />
 
-                    <p className='rightt'><ol> أكون فعالا في الحد من المحتوى الذي يتعارض مع القيم الأخلاقية والانسانية - </ol></p>
+                    <p className='rightt'><ol>أكون فعالا في الحد من المحتوى الذي يتعارض مع القيم  - </ol></p>
+                    <p className = "rightt"><ol> .الأخلاقية والانسانية</ol></p>
                     
 
                 </div>
