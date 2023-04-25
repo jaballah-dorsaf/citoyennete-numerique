@@ -18,14 +18,15 @@ const About3 = () => {
 
                 <div className = "content-left">
 
-                    <img src = {images.customer_img_2} alt = "" />
+                   
 
                 </div>
 
                 <div className='content-right'>
 
-                    <p><h4 className='fasl'> : الفصل الثالث</h4><h2 className='fousoul'>الأخلاقيات الرقمية</h2></p>
-
+                    <p><h4 className='fasl'> : الفصل الثالث</h4><h2 className='fousoul'>الأخلاقيات الرقمية</h2></p><br />
+                    <img src = {images.customer_img_2} alt = "" />
+                    <br />
                     <p className = "rightt"><ol> .لا اتنمر على الاخرين  -</ol></p><br />
 
                     <p className = "rightt"><ol> .التزم بآداب الحوار والمناقشة -</ol></p><br />

@@ -152,7 +152,7 @@ input, textarea, select{
 
   margin: 0 auto;
 
-  padding: 0 2rem;
+  padding: 0 1.9rem;
 
 }
 
@@ -244,7 +244,8 @@ input, textarea, select{
 
   font-weight: 500;
 
-  color: var(--clr-grey);
+  
+  color: #e348ab;
 
 }
 
@@ -344,7 +345,7 @@ input, textarea, select{
 
 .bg-white{background-color: var(--clr-white);}
 
-.bg-black-new{background-color: #f1ac57;}
+/*.bg-black-new{background-color: #f1ac57;}*/
 
 .bg-black{background-color: #fafafa;}
 
@@ -352,7 +353,7 @@ input, textarea, select{
 
 .bg-dark{background-color: var(--clr-dark);}
 
-.bg-md-black{background-color: #fafafa;}
+.bg-md-black{background-color: #e9e3e3;}
 
 
 
@@ -432,7 +433,8 @@ input, textarea, select{
 
 .section-p{
 
-  padding: 10rem 0;
+  padding: 4rem 0;
+  
 
 }
 
@@ -444,7 +446,7 @@ input, textarea, select{
 
 .section-t{
 
-  font-size: 44px;
+  font-size: 35px;
 
   color: var(--clr-white);
 
@@ -524,4 +526,23 @@ input, textarea, select{
 
   transform: translateY(-20px);
 
+}
+.fasl {
+
+  color: #0a8176;
+
+  text-align: right;
+
+}
+
+.fousoul {
+
+  color: #eb4e1d;
+
+  text-align: right;
+
+}
+.about-content {
+  row-gap: 40px;
+  
 }

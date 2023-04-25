@@ -20,19 +20,18 @@ const About = () => {
         </div>
 
             <div className='about-content grid text-center'>
-
+                
                 <div className = "content-left">
-
-                    <img src = {images.about_main_img} alt = "" />
+                   
 
                 </div>
 
                 <div className='content-right'>
 
-                    
+                    <p><h4 className='fasl'> : الفصل الأول</h4><h2 className='fousoul'>السلامة الرقمية</h2></p><br />
+                    <img src = {images.about_main_img} alt = "" />
 
-                    <p><h4 className='fasl'> : الفصل الأول</h4><h2 className='fousoul'>السلامة الرقمية</h2></p>
-
+                       <br />
                     <p className = "rightt"><ol> .لا أحمّل البرامج والتطبيقات من مصادر غير موثوقة - </ol></p>
 
                     <p className = "rightt"><ol> .أتجنب ان اعطي البريد الالكتروني لمن يطلبه -</ol></p>
@@ -43,7 +42,7 @@ const About = () => {
 
                     <p className='rightt'><ol> عدم فتح رسائل مجهولة المصدر -</ol></p>
                     
-
+                    
                 </div>
 
             </div>

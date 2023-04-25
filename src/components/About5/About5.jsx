@@ -18,13 +18,14 @@ const About5 = () => {
 
                 <div className = "content-left">
 
-                    <img src = {images.customer_img_4} alt = "" />
-
+                    
                 </div>
 
                 <div className='content-right'>
 
-                    <p><h4 className='fasl'> : الفصل الخامس</h4><h2 className='fousoul'>الاستخدام الرقمي الإيجابي</h2></p>
+                    <p><h4 className='fasl'> : الفصل الخامس</h4><h2 className='fousoul'>الاستخدام الرقمي الإيجابي</h2></p><br />
+                    <img src = {images.customer_img_4} alt = "" />
+                    <br />
 
                     <p className = "rightt"><ol> أحافظ على صحتي الجسدية والنفسية من خلال الموازنة - </ol></p>
                     <p className='rightt'><ol> .وضبط الوقت بين العالم الافتراضي والواقعي</ol></p>

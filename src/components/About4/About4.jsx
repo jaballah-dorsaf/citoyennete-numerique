@@ -18,14 +18,15 @@ const About4 = () => {
 
                 <div className = "content-left">
 
-                    <img src = {images.customer_img_3} alt = "" />
+                    
 
                 </div>
 
                 <div className='content-right'>
 
-                    <p><h4 className='fasl'> : الفصل الرابع</h4><h2 className='fousoul'>السمعة الرقمية</h2></p>
-
+                    <p><h4 className='fasl'> : الفصل الرابع</h4><h2 className='fousoul'>السمعة الرقمية</h2></p><br />
+                    <img src = {images.customer_img_3} alt = "" />
+                    <br />
                     <p className = "rightt"><ol>.أمثل وطني أفضل تمثيل - </ol></p>
 
                     <p className = "rightt"><ol>.أدافع عن مكتسبات وسمعة الدولة في العالم الرقمي -</ol></p>
