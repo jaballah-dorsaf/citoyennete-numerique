@@ -24,7 +24,7 @@ const Testimonials = () => {
                     <h3>السلامة الرقمية</h3>
                     <p className='text'>.  تعني حماية أجهزة الحاسوب, والهواتف النقالة, والأجهزة اللوحية وغيرها من الأجهزة المرتبطة بالإنترنت؛ من التعرض للقرصنة، أو التصيد، أو غيرها من الأمور ، كما تُستخدم السلامة الرقمية لحماية المعلومات الخاصة من الانتشار، أو من استخدامها أو بيعها للشركات</p>
                 </div>
-                 <h4>كيفية الحفاظ على السلامة والخصوصية عند استخدام الإنترنت</h4>
+                 <h4>كيفية الحفاظ على السلامة الرقمية عند استخدام الإنترنت</h4>
                 <div className='item-list grid text-black text-center'>
                     {
                         sections.testimonials.map(testimonial => {
@@ -34,7 +34,7 @@ const Testimonials = () => {
                                     <div className='item-img'>
                                         <img src = {testimonial.image} alt = "" />
                                     </div>
-                                    <h4 className='item-name'>{testimonial.name}</h4>
+                                   
                                     <p className='item-text text'>{testimonial.text}</p>
                                     <ul className='flex item-rating flex-center'>
                                         {

@@ -14,7 +14,7 @@ import Testimonials2 from './components/Testimonials2/Testimonials2';
 import Testimonials3 from './components/Testimonials3/Testimonials3';
 import Testimonials4 from './components/Testimonials4/Testimonials4';
 import Testimonials5 from './components/Testimonials5/Testimonials5';
-/*import Contact from './components/Contact/Contact';*/
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -34,6 +34,7 @@ function App() {
       <Testimonials4 />
       <Testimonials5 />
 
+      <Contact />
       <Footer />
     </div>
   );

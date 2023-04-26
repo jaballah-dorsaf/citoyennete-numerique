@@ -1,5 +1,5 @@
 import images from "./images";
-import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaMapMarkerAlt} from "react-icons/fa";
+import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
 import {BiDollarCircle} from "react-icons/bi";
 import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
@@ -125,54 +125,65 @@ const testimonials = [
     {
         id: 19,
         name: "عند استخدام البريد الإلكتروني",
-        text: " .لا أحمّل البرامج والتطبيقات من مصادر غير موثوقة",
-        image: images.customer_img_1_1,
+        text: " . أحافظ على صحتي الجسدية والنفسية من خلال الموازنة وضبط الوقت بين العالم الافتراضي والواقعي",
+        image: images.customer_img_2_5,
         rating: 3
     },
     {
         id: 20,
         name: "عند استخدام متصفح الإنترنت",
-        text: " .أتجنب ان اعطي البريد الالكتروني لمن يطلبه",
-        image: images.customer_img_2_1,
+        text: " .أكون مسؤولاً عن تعاملي مع العالم الرقمي، وأن أحترم القوانين والقواعد المنظمة لذلك",
+        image: images.customer_img_5_5,
         rating: 5
     },
     {
         id: 21,
         name: "عند استخدام الخدمة السحابية",
-        text: ".اكتب كلمة سر قوية ولا اعطيها الا الى والديا",
-        image: images.customer_img_3_1,
+        text: ".أعزز قيم التضامن والتعاطف الاجتماعي والمعاملة بإيجابية واستخدم منصات التواصل الاجتماعي بحكمة",
+        image: images.customer_img_3_5,
         rating: 2
     },
     {
         id: 22,
         name: "عند استخدام بيانات الموقع",
-        text: "إذا واجهت مشكلة اتصل بالأمن الالكتروني ",
-        image: images.customer_img_6_1,
+        text: " اكشف واطور من أنماط التعلم عن بعد ",
+        image: images.customer_img_4_5,
         rating: 4
     },
     {
         id: 23,
         name: "عند استخدام وسائل التواصل الاجتماعي",
-        text: ".عدم فتح رسائل مجهولة المصدر",
-        image: images.customer_img_4_1,
+        text: ".اتعلم وأتمكن من التكنولوجيا",
+        image: images.customer_img_1_5,
         rating: 2
     },
     {
         id: 24,
         name: "عدم نشر أي معلومات أو صور قد تؤذيك عند نشرها",
-        text: ".إذا كنت اشك ان الحاسوب مراقب ابلغ والدي ",
-        image: images.customer_img_5_1,
+        text: ".اتعامل مع التكنولوجيا بذكاء ، لا أستعملها فقط للعب",
+        image: images.customer_img_6_5,
         rating: 4
     }
 ]
 
 const contact = [
-   
     {
-        id: 28,
+        id: 25,
+        icon: <FaPhoneAlt style = {{ fill: gradient }} />,
+        info: "+425 235 712",
+        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+    },
+    {
+        id: 26,
+        icon: <FaEnvelopeOpen style = {{ fill: gradient }} />,
+        info: "solnhub@info.com",
+        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+    },
+    {
+        id: 27,
         icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "السلامة الرقمية",
-        text: "السلامة الرقمية"
+        info: "United Kingdom, New Street",
+        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     }
 ]
 

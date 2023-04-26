@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Testimonials5.css";
-import sections from '../../constants/data';
+import sections from '../../constants/data5';
 import {MdStar} from "react-icons/md";
 
 const gradient = "url(#blue-gradient)";
@@ -21,10 +21,10 @@ const Testimonials5 = () => {
         <div className='container'>
             <div className='testimonials-content'>
                 <div className='section-t text-center'>
-                    <h3>السلامة الرقمية</h3>
-                    <p className='text'>.  تعني حماية أجهزة الحاسوب, والهواتف النقالة, والأجهزة اللوحية وغيرها من الأجهزة المرتبطة بالإنترنت؛ من التعرض للقرصنة، أو التصيد، أو غيرها من الأمور ، كما تُستخدم السلامة الرقمية لحماية المعلومات الخاصة من الانتشار، أو من استخدامها أو بيعها للشركات</p>
+                    <h3>الاستخدام الرقمي الإيجابي</h3>
+                    <p className='text'>. من خلال تعزيز الاتصال الإلكتروني والشمول المالي وإمكانيات الوصول إلى الخدمات التجارية والعامة، يمكن أن تمثل التكنولوجيا عاملاً كبيراً في تحقيق المساواة. ففي قطاع الصحة، على سبيل المثال، تساعد التكنولوجيات الرائدة التي يدعمها الذكاء الاصطناعي في إنقاذ الأرواح وتشخيص الأمراض وإطالة العمر المتوقع</p>
                 </div>
-                 <h4>كيفية الحفاظ على السلامة والخصوصية عند استخدام الإنترنت</h4>
+                 
                 <div className='item-list grid text-black text-center'>
                     {
                         sections.testimonials.map(testimonial => {
@@ -34,7 +34,7 @@ const Testimonials5 = () => {
                                     <div className='item-img'>
                                         <img src = {testimonial.image} alt = "" />
                                     </div>
-                                    <h4 className='item-name'>{testimonial.name}</h4>
+                                    
                                     <p className='item-text text'>{testimonial.text}</p>
                                     <ul className='flex item-rating flex-center'>
                                         {

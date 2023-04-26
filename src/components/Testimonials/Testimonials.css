@@ -1,6 +1,9 @@
 .bg-black-new {
     background-color: #bbefec;
 }
+.section-t.text-center h3 {
+    color: rgb(241, 113, 28);
+ }
 .testimonials .item-list{
     margin-top: 30px;
     row-gap: 30px;

@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Contact.css";
 import { BsArrowRightCircle } from 'react-icons/bs';
-import sections from '../../constants/data';
+import sections from '../../constants/data3';
 
-const Info = () => {
+const Info3 = () => {
   return (
     <div className='info bg-md-black section-p'>
       <div className='container'>
@@ -16,10 +16,10 @@ const Info = () => {
                             <div className='item bg-dark translate-effect' key = {contact.id}>
                              
                                 <span className='item-icon'>{contact.icon}</span>
-                                <div className='item-info-text fw-5 text-white'><a href = "https://wordwall.net/ar/embed/8711c716db234aba982b64388325ef8d?themeId=1&templateId=5&fontStackId=0">{contact.info}</a></div>
+                                <div className='item-info-text fw-5 text-white'><a href = "https://wordwall.net/ar/embed/aba1607443c54952aee22e2496c95df0?themeId=1&templateId=5&fontStackId=0">{contact.info}</a></div>
                                 
       
-                                <a href = "https://wordwall.net/ar/embed/8711c716db234aba982b64388325ef8d?themeId=1&templateId=5&fontStackId=0" className='item-link text-grey'>
+                                <a href = "https://wordwall.net/ar/embed/aba1607443c54952aee22e2496c95df0?themeId=1&templateId=5&fontStackId=0" className='item-link text-grey'>
                                     <BsArrowRightCircle size = {50} />
                                 </a>
                             </div>
@@ -34,4 +34,4 @@ const Info = () => {
   )
 }
 
-export default Info
+export default Info3

@@ -1,3 +1,11 @@
+.textttt {
+    margin: 0px 40px 0px 0;
+    color: #e5831c;
+}
+.bbg-black-new {
+    background-color: #835376;
+}
+
 .contact .contact-content{
     row-gap: 60px;
 }
@@ -91,7 +99,7 @@
 
 @media screen and (min-width: 1200px){
     .info .item-list{
-        grid-template-columns: repeat(3, 1fr);
+        /*grid-template-columns: repeat(3, 1fr);*/
         column-gap: 30px;
     }
 }

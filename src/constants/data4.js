@@ -1,5 +1,5 @@
 import images from "./images";
-import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaMapMarkerAlt} from "react-icons/fa";
+import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt} from "react-icons/fa";
 import {BiDollarCircle} from "react-icons/bi";
 import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
@@ -125,54 +125,39 @@ const testimonials = [
     {
         id: 19,
         name: "عند استخدام البريد الإلكتروني",
-        text: " .لا أحمّل البرامج والتطبيقات من مصادر غير موثوقة",
-        image: images.customer_img_1_1,
+        text: " .أمثل وطني أفضل تمثيل",
+        image: images.customer_img_1_4,
         rating: 3
     },
     {
         id: 20,
         name: "عند استخدام متصفح الإنترنت",
-        text: " .أتجنب ان اعطي البريد الالكتروني لمن يطلبه",
-        image: images.customer_img_2_1,
+        text: " .أدافع عن مكتسبات وسمعة الدولة في العالم الرقمي",
+        image: images.customer_img_2_4,
         rating: 5
     },
     {
         id: 21,
         name: "عند استخدام الخدمة السحابية",
-        text: ".اكتب كلمة سر قوية ولا اعطيها الا الى والديا",
-        image: images.customer_img_3_1,
+        text: ".ألتزم بالولاء لوطني",
+        image: images.customer_img_4_4,
         rating: 2
     },
     {
         id: 22,
         name: "عند استخدام بيانات الموقع",
-        text: "إذا واجهت مشكلة اتصل بالأمن الالكتروني ",
-        image: images.customer_img_6_1,
-        rating: 4
-    },
-    {
-        id: 23,
-        name: "عند استخدام وسائل التواصل الاجتماعي",
-        text: ".عدم فتح رسائل مجهولة المصدر",
-        image: images.customer_img_4_1,
-        rating: 2
-    },
-    {
-        id: 24,
-        name: "عدم نشر أي معلومات أو صور قد تؤذيك عند نشرها",
-        text: ".إذا كنت اشك ان الحاسوب مراقب ابلغ والدي ",
-        image: images.customer_img_5_1,
+        text: "أكون نموذجاً للقيم والعادات والتقاليد الوطنية والإنسانية في العالم الرقمي",
+        image: images.customer_img_3_4,
         rating: 4
     }
 ]
 
 const contact = [
-   
     {
         id: 28,
-        icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "السلامة الرقمية",
-        text: "السلامة الرقمية"
+        icon: <FaPhoneAlt style = {{ fill: gradient }} />,
+        info: "الاستخدام الرقمي الاجابي",
+        text: "الاستخدام الرقمي الاجابي"
     }
 ]
 

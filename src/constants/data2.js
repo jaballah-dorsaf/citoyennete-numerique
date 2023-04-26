@@ -125,54 +125,53 @@ const testimonials = [
     {
         id: 19,
         name: "عند استخدام البريد الإلكتروني",
-        text: " .لا أحمّل البرامج والتطبيقات من مصادر غير موثوقة",
-        image: images.customer_img_1_1,
+        text: " .احرص على حماية معطياتي الشخصية وعدم نشرها" ,
+        image: images.customer_img_1_2,
         rating: 3
     },
     {
         id: 20,
         name: "عند استخدام متصفح الإنترنت",
-        text: " .أتجنب ان اعطي البريد الالكتروني لمن يطلبه",
-        image: images.customer_img_2_1,
+        text: " .احترم الاخرين وخصوصيتهم وملكيتهم الفكرية",
+        image: images.customer_img_2_2,
         rating: 5
     },
     {
         id: 21,
         name: "عند استخدام الخدمة السحابية",
-        text: ".اكتب كلمة سر قوية ولا اعطيها الا الى والديا",
-        image: images.customer_img_3_1,
+        text: ".لا اتسبب في الضرر لعملهم او هويتهم الرقمية",
+        image: images.customer_img_3_2,
         rating: 2
     },
     {
         id: 22,
         name: "عند استخدام بيانات الموقع",
-        text: "إذا واجهت مشكلة اتصل بالأمن الالكتروني ",
-        image: images.customer_img_6_1,
+        text: "إذا طلب مني أحد ان اعطي بياناتي الشخصية وانا العب لا اعطي",
+        image: images.customer_img_4_2,
         rating: 4
     },
     {
         id: 23,
         name: "عند استخدام وسائل التواصل الاجتماعي",
-        text: ".عدم فتح رسائل مجهولة المصدر",
-        image: images.customer_img_4_1,
+        text: ".لا أرسل صوري شخصية الى اشخاص لا اعرفهم قديما",
+        image: images.customer_img_5_2,
         rating: 2
     },
     {
         id: 24,
-        name: "عدم نشر أي معلومات أو صور قد تؤذيك عند نشرها",
-        text: ".إذا كنت اشك ان الحاسوب مراقب ابلغ والدي ",
-        image: images.customer_img_5_1,
-        rating: 4
+        name: "عند استخدام وسائل التواصل الاجتماعي",
+        text: ".لا أرسل صوري شخصية الى اشخاص لا اعرفهم قديما",
+        image: images.customer_img_6_2,
+        rating: 2
     }
 ]
 
 const contact = [
-   
     {
-        id: 28,
+        id: 26,
         icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "السلامة الرقمية",
-        text: "السلامة الرقمية"
+        info: "الخصوصية الرقمية",
+        text: "الخصوصية الرقمية"
     }
 ]
 
